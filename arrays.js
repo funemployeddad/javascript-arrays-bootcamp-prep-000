@@ -36,7 +36,7 @@ return array;
 
 function removeElementFromBeginningOfArray(array){
   var array = [1, 2, 3];
-  array.slice(1);
+  array.slice(-2);
   return array;
 }
 
